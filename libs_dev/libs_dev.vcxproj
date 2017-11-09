@@ -111,6 +111,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="arguments_parser.cpp" />
+    <ClCompile Include="exception_generator.cpp" />
+    <ClCompile Include="file_handler.cpp" />
+    <ClCompile Include="memory_controller.cpp" />
+    <ClCompile Include="runtime.cpp" />
+    <ClCompile Include="slae_solver.cpp" />
+    <ClCompile Include="slae_solver_gauss.cpp" />
+    <ClCompile Include="slae_solver_ldlt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arguments_parser.h" />
+    <ClInclude Include="exception_generator.h" />
+    <ClInclude Include="file_handler.h" />
+    <ClInclude Include="pseudo_dynamic_memory_controller.h" />
+    <ClInclude Include="slae_solver.h" />
+    <ClInclude Include="slae_solver_gauss.h" />
+    <ClInclude Include="slae_solver_ldlt.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
